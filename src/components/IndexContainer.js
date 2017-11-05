@@ -1,7 +1,12 @@
 import React from 'react'
 
-export default ({ children }) => 
-    <div style={{ margin: '0 auto', maxWidth: 330, marginTop: '15%' }}>
-        {children}  
+import 'flexboxgrid/css/flexboxgrid.min.css'
+
+export default ({ children }) =>
+    <div className="row center-xs" style={{ paddingTop: '15%' }}>
+        <div className="col-xs-12">
+            <div className="box">
+                {children}
+            </div>
+        </div>
     </div>
-    

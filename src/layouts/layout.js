@@ -1,6 +1,3 @@
-import React from "react"
+import React from 'react'
 
-export default ({ children, data }) =>
-    <div>
-        {children()}
-    </div>
+export default ({ children, data }) => <div>{children()}</div>
