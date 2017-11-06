@@ -24,7 +24,6 @@ class SocialContainer extends React.Component {
 
     let buttons = this.state.data.map(({ iconName, url }) => (
       <SocialButton
-        style={{ display: 'inline-block' }}
         key={iconName}
         url={url}
         iconName={iconName}
