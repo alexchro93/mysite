@@ -31,7 +31,11 @@ class SocialContainer extends React.Component {
       />
     ))
 
-    return <div>{buttons}</div>
+    return (
+      <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+        {buttons}
+      </div>
+    )
   }
 }
 
