@@ -4,22 +4,11 @@ import IndexContainer from '../components/IndexContainer'
 import SocialContainer from '../components/SocialContainer'
 
 const IndexPage = ({ data }) => (
-    <IndexContainer>
-        <div style={{ display: 'inline-block' }}>
-            <h1 style={{
-              letterSpacing: '0.2rem',
-              marginBottom: '1px',
-              display: 'inline-block',
-              clear: 'both',
-              float: 'left'}}>
-                Alex
-            </h1>
-            <h1 style={{ letterSpacing: '0.3rem', clear: 'both', float: 'left' }}>
-                Chrostowski
-            </h1>
-        </div>
-        <SocialContainer data={data.site.siteMetadata.social} />
-    </IndexContainer>
+  <IndexContainer>
+    <h1 style={{ marginBottom: '1px' }}>Alex</h1>
+    <h1>Chrostowski</h1>
+    <SocialContainer data={data.site.siteMetadata.social} />
+  </IndexContainer>
 )
 
 export default IndexPage

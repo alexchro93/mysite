@@ -1,6 +1,5 @@
 import React from 'react'
 
-export default ({ children }) =>
-    <div  style={{ paddingTop: '15%', textAlign: 'center' }}>
-        {children}
-    </div>
+import './IndexContainer.css'
+
+export default ({ children }) => <div>{children}</div>
