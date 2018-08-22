@@ -60,3 +60,6 @@ typings/
 # Gatsby stuff
 /public
 .cache/
+
+# Mac stuff
+.DS_Store
